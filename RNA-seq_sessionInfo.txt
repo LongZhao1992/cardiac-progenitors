@@ -1,0 +1,40 @@
+R version 3.5.0 (2018-04-23)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Sierra 10.12.6
+
+Matrix products: default
+BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats4    parallel  stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+ [1] destiny_2.10.2              cowplot_0.9.3               biomaRt_2.36.1              limma_3.36.2                scran_1.8.2                 SingleCellExperiment_1.2.0  SummarizedExperiment_1.10.1
+ [8] DelayedArray_0.6.1          matrixStats_0.53.1          GenomicRanges_1.32.3        GenomeInfoDb_1.16.0         IRanges_2.14.10             S4Vectors_0.18.3            BiocParallel_1.14.2
+[15] genefilter_1.62.0           BiocInstaller_1.30.0        RColorBrewer_1.1-2          singlecellutils_0.1.0       gridExtra_2.3               tidyr_0.8.1                 dplyr_0.7.6
+[22] viridis_0.5.1               viridisLite_0.3.0           multipanelfigure_1.1.2      Rtsne_0.13                  scater_1.4.0                ggplot2_3.0.0               Biobase_2.40.0
+[29] BiocGenerics_0.26.0
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.1.0               RcppEigen_0.3.3.4.0        plyr_1.8.4                 igraph_1.2.1               assertive.files_0.0-2      lazyeval_0.2.1             sp_1.3-1
+  [8] shinydashboard_0.7.0       splines_3.5.0              digest_0.6.15              htmltools_0.3.6            tiff_0.1-5                 magrittr_1.5               memoise_1.1.0
+ [15] switchr_0.13.0             assertive.numbers_0.0-2    openxlsx_4.1.0             annotate_1.58.0            xts_0.10-2                 prettyunits_1.0.2          jpeg_0.1-8
+ [22] colorspace_1.3-2           blob_1.1.1                 haven_1.1.2                crayon_1.3.4               RCurl_1.95-4.11            tximport_1.8.0             bindr_0.1.1
+ [29] zoo_1.8-2                  survival_2.41-3            glue_1.2.0                 gtable_0.2.0               zlibbioc_1.26.0            XVector_0.20.0             car_3.0-0
+ [36] Rhdf5lib_1.2.1             DEoptimR_1.0-8             abind_1.4-5                VIM_4.7.0                  scales_0.5.0               DBI_1.0.0                  edgeR_3.22.3
+ [43] ggthemes_3.5.0             Rcpp_0.12.18               laeken_0.4.6               xtable_1.8-2               progress_1.2.0             gridGraphics_0.3-0         proxy_0.4-22
+ [50] foreign_0.8-70             bit_1.1-14                 rsvg_1.3                   DT_0.4                     vcd_1.4-4                  htmlwidgets_1.2            httr_1.3.1
+ [57] FNN_1.1                    pkgconfig_2.0.1            XML_3.98-1.11              nnet_7.3-12                locfit_1.5-9.1             dynamicTreeCut_1.63-1      tidyselect_0.2.4
+ [64] rlang_0.2.1                reshape2_1.4.3             later_0.7.3                AnnotationDbi_1.42.1       munsell_0.5.0              cellranger_1.1.0           tools_3.5.0
+ [71] RSQLite_2.1.1              stringr_1.3.1              bit64_0.9-7                zip_1.0.0                  robustbase_0.93-1          purrr_0.2.5                bindrcpp_0.2.2
+ [78] mime_0.5                   compiler_3.5.0             rstudioapi_0.7             beeswarm_0.2.3             curl_3.2                   png_0.1-7                  e1071_1.6-8
+ [85] smoother_1.1               tibble_1.4.2               statmod_1.4.30             stringi_1.2.3              forcats_0.3.0              lattice_0.20-35            assertive.base_0.0-7
+ [92] Matrix_1.2-14              pillar_1.2.3               lmtest_0.9-36              data.table_1.11.4          bitops_1.0-6               httpuv_1.4.4.2             assertive.types_0.0-3
+ [99] R6_2.2.2                   assertive.properties_0.0-4 promises_1.0.1             rio_0.5.10                 vipor_0.4.5                codetools_0.2-15           boot_1.3-20
+[106] MASS_7.3-49                assertthat_0.2.0           rhdf5_2.24.0               rjson_0.2.20               withr_2.1.2                GenomeInfoDbData_1.1.0     hms_0.4.2
+[113] grid_3.5.0                 class_7.3-14               DelayedMatrixStats_1.2.0   carData_3.0-1              TTR_0.23-3                 scatterplot3d_0.3-41       shiny_1.1.0
+[120] ggbeeswarm_0.6.0
