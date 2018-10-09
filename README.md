@@ -16,6 +16,14 @@ R code to preprocess single-cell RNA-seq data from scratch can be found in the `
 
 We additionally provide scripts to reproduce most of the main figures. The R code can be found in the `figure_src` directory and is split into individual files. Figures can be recreated without the need of *preprocessing* the data.
 
+### ATAC-seq analysis
+
+For requirements, please see the file `ATAC-seq_sessionInfo.txt` for specific R packages and their versions.
+
+#### Figures
+
+We provide scripts to reproduce figures from the ATAC-seq data analysis of the manuscript. The R code can be found in the `figure_src` directory.
+
 ### Citation
 
 Please refer to the following research article when using data from this repository:

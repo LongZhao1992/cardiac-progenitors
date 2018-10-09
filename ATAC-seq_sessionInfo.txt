@@ -1,0 +1,39 @@
+R version 3.5.0 (2018-04-23)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Sierra 10.12.6
+
+Matrix products: default
+BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+ [1] grid      parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+ [1] ComplexHeatmap_1.18.0       Rtsne_0.13                  chromVAR_1.2.0              scABC_0.99.0                multipanelfigure_1.0.0      scater_1.8.0                ggplot2_2.2.1
+ [8] singlecellutils_0.9.0       SingleCellExperiment_1.2.0  SummarizedExperiment_1.10.1 DelayedArray_0.6.0          BiocParallel_1.14.1         matrixStats_0.53.1          Biobase_2.40.0
+[15] GenomicRanges_1.32.3        GenomeInfoDb_1.16.0         IRanges_2.14.10             S4Vectors_0.18.2            BiocGenerics_0.26.0         Matrix_1.2-14               magrittr_1.5
+
+loaded via a namespace (and not attached):
+  [1] circlize_0.4.4              backports_1.1.2             Hmisc_4.1-1                 VGAM_1.0-5                  plyr_1.8.4                  assertive.files_0.0-2       lazyeval_0.2.1
+  [8] shinydashboard_0.7.0        splines_3.5.0               TFBSTools_1.18.0            digest_0.6.15               htmltools_0.3.6             GO.db_3.6.0                 viridis_0.5.1
+ [15] tiff_0.1-5                  checkmate_1.8.5             memoise_1.1.0               switchr_0.13.0              BSgenome_1.48.0             assertive.numbers_0.0-2     cluster_2.0.7-1
+ [22] limma_3.36.1                Biostrings_2.48.0           readr_1.1.1                 annotate_1.58.0             R.utils_2.6.0               jpeg_0.1-8                  colorspace_1.3-2
+ [29] blob_1.1.1                  dplyr_0.7.6                 jsonlite_1.5                RCurl_1.95-4.11             tximport_1.8.0              bindr_0.1.1                 TFMPvalue_0.0.8
+ [36] survival_2.41-3             glue_1.2.0                  gtable_0.2.0                zlibbioc_1.26.0             XVector_0.20.0              GetoptLong_0.1.7            Rhdf5lib_1.2.1
+ [43] shape_1.4.4                 TraMineR_2.0-8              scales_0.5.0                DBI_1.0.0                   edgeR_3.22.2                WeightedCluster_1.2-1       miniUI_0.1.1.1
+ [50] Rcpp_0.12.17                viridisLite_0.3.0           xtable_1.8-2                htmlTable_1.12              gridGraphics_0.3-0          foreign_0.8-70              bit_1.1-14
+ [57] Formula_1.2-3               rsvg_1.3                    DT_0.4                      httr_1.3.1                  htmlwidgets_1.2             RColorBrewer_1.1-2          acepack_1.4.1
+ [64] R.methodsS3_1.7.1           pkgconfig_2.0.1             XML_3.98-1.11               nnet_7.3-12                 locfit_1.5-9.1              AnnotationDbi_1.42.1        tidyselect_0.2.4
+ [71] rlang_0.2.1                 reshape2_1.4.3              later_0.7.2                 munsell_0.4.3               tools_3.5.0                 DirichletMultinomial_1.22.0 RSQLite_2.1.1
+ [78] stringr_1.3.1               yaml_2.1.19                 knitr_1.20                  bit64_0.9-7                 caTools_1.17.1              purrr_0.2.5                 KEGGREST_1.20.0
+ [85] bindrcpp_0.2.2              mime_0.5                    R.oo_1.22.0                 poweRlaw_0.70.1             compiler_3.5.0              rstudioapi_0.7              plotly_4.7.1
+ [92] beeswarm_0.2.3              png_0.1-7                   tibble_1.4.2                stringi_1.2.2               lattice_0.20-35             assertive.base_0.0-7        CNEr_1.16.1
+ [99] pillar_1.2.3                GlobalOptions_0.1.0         data.table_1.11.4           bitops_1.0-6                httpuv_1.4.3                rtracklayer_1.40.3          assertive.types_0.0-3
+[106] R6_2.2.2                    latticeExtra_0.6-28         assertive.properties_0.0-4  promises_1.0.1              gridExtra_2.3               vipor_0.4.5                 codetools_0.2-15
+[113] boot_1.3-20                 gtools_3.5.0                assertthat_0.2.0            seqLogo_1.46.0              rhdf5_2.24.0                rjson_0.2.19                GenomicAlignments_1.16.0
+[120] Rsamtools_1.32.0            GenomeInfoDbData_1.1.0      hms_0.4.2                   rpart_4.1-13                tidyr_0.8.1                 DelayedMatrixStats_1.2.0    shiny_1.1.0
+[127] base64enc_0.1-3             ggbeeswarm_0.6.0  
