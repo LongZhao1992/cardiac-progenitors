@@ -110,6 +110,13 @@ g1_s_g2_m_cor <- cor(t(get_exprs(c1_subset[g1_s_g2_m_genes, cycle_score_df$cell[
 colnames(g1_s_g2_m_cor) <- fData(c1_subset[colnames(g1_s_g2_m_cor),])$symbol
 rownames(g1_s_g2_m_cor) <- fData(c1_subset[rownames(g1_s_g2_m_cor),])$symbol
 
+write.table(file = file.path(parameters$general$path_supdata, "Source_Data_SupplementaryFigure_9c.txt"),
+            x = g1_s_g2_m_cor,
+            row.names = T,
+            col.names = T,
+            quote = F,
+            sep = "\t")
+
 col_fun <- colorRamp2(seq(-0.9, 0.9, length.out = 10), rev(brewer.pal(10, "RdBu")))
 
 isl1_ko_cycle_genes <- Heatmap(g1_s_g2_m_cor,
@@ -138,7 +145,7 @@ m <- fill_panel(m, isl1_ko_cycle_genes, column = 1:2)
 
 ggsave(
   plot = m,
-  filename = file.path(parameters$general$path_rfigures, "Supplementary_Figure_Isl1KOcycle.pdf"),
+  filename = file.path(parameters$general$path_rfigures, "Supplementary_Figure_9.pdf"),
   width = figure_width(m),
   height = figure_height(m),
   units = "mm",
@@ -220,6 +227,14 @@ isl1_ko_heatmap <- Heatmap(isl1_ko_expression,
                           heatmap_legend_param = list("plot" = F, "color_bar" = "continuous", "legend_direction" = "horizontal", "title" = "Scaled expression", "title_position" = "leftcenter", "title_gp" = gpar(fontsize = 4), "labels_gp" = gpar(fontsize = 4), "grid_height" = unit(2, "mm")))
 
 fig_3c <- grid.grabExpr(draw(isl1_ko_heatmap, heatmap_legend_side = "bottom", padding = unit(c(0, 0, 0, 0), "mm")))
+
+# Write out for Source Data file
+write.table(file = file.path(parameters$general$path_supdata, "Source_Data_Figure5_d.txt"),
+            x = isl1_ko_expression,
+            col.names = T,
+            row.names = T,
+            sep = "\t",
+            quote = T)
 
 #
 # Predict Isl1-KO onto Isl1 trajectory
